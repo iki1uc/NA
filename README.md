@@ -1,25 +1,60 @@
-# 360 – Vollrotationsmodul · iki1uc
+# 360 · Vollrotation · ROT-Ebene
 
-## Zweck
-360 ist das globale Rotationsmodul der IKI‑Engine.
-Es rotiert alle Achsen, Dimensionen und Module im vollständigen 360°-Raum.
+Das Modul **360** ist die zentrale Rotationsinstanz des Systems **6E** im Repository **iki1uc**.  
+Es rotiert Achsen, Dimensionen und Module im vollständigen 360°‑Raum und bildet die ROT‑Ebene des NC²‑Systems.
 
-## Struktur
-- NAME: 360
-- DIM: ROT
-- DNA: Α64
-- Achsenmatrix: 6×6
-- Felder pro Achse: 64
-- Rotation: 360°
+---
 
-## Rolle
-360 verbindet AXI, 6d, ANKER und API zu einem vollständigen Rotationssystem.
+## Identität
 
-## Router
-- AXI‑ATOR: aktiv
-- TriAxiom: aktiv
-- RESPO‑AXI‑LINK.NET: verbunden
+NAME = 360
+ROOT = iki1uc
+SYSTEM = 6E
+MODUL = 360
+DIM = ROT
+
+ROLLE = Vollrotation / Achsenrotation / 360°-System
+FUNKTION = Rotiert alle Achsen, Dimensionen und Module im vollständigen 360°-Raum
+
+POSITION = ROT-Ebene
+LINK = AXI + 6d + ANKER + API
+DNA = Α64
+ROUTER = 6D-Router-Matrix
+TMP-LAEUFER = SYQ
+
+STATUS = STABIL
+READY = 100%
+
+---
+
+## Dateien
+
+- 12e allin allout.room  
+- 6D‑Baum.raw  
+- 6E → 6D.tech  
+- B.room  
+- NC² / NC² (1)  
+- NC²octa².dual  
+- NC²octa²□.merge  
+- NC²□.lock / sync  
+- NC²□octa³.align  
+- STATIONEN.raw  
+- T.room  
+- level‑pyramiden‑7.csv (alle Varianten)  
+- ID.html  
+- index.html  
+
+---
+
+## Module
+
+- **AXI** – Achsenkern  
+- **6D** – Dimensionen  
+- **ANKER** – Stabilisierung  
+- **API** – Schnittstellen  
+
+---
 
 ## Status
-STATE = STABIL  
-READY = 100%
+
+**STABIL · READY 100%**
